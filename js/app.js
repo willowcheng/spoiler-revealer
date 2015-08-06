@@ -14,4 +14,5 @@ $("button").click(function () {
     // 3.1, Show spoiler
     $(".spoiler span").show();
     // 3.2, Get rid of button
+    $(this).remove();
 });
